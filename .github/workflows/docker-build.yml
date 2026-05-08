@@ -22,7 +22,7 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build -t myacrv.azurecr.io/worldTripRegistry:latest .
+          docker build -t myacrv.azurecr.io/worldtripregistry:latest .
       - name: Push Docker image to Azure
         run: |
-          docker push myacrv.azurecr.io/worldTripRegistry:latest
+          docker push myacrv.azurecr.io/worldtripregistry:latest
